@@ -1,4 +1,4 @@
-Leaflet.spin
+Leaflet.Spin
 ============
 
 Shows a nice spin cursor on the map.
@@ -12,9 +12,9 @@ Usage
 
     var layer = L.GeoJSON(null).addTo(map);
     
-    layer.fire('loading');
+    layer.fire('data:loading');
     $.getJSON('http://server/path.geojson', function (data) {
-        layer.fire('loaded');
+        layer.fire('data:loaded');
         layer.addData(data);
     });
 
