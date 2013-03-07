@@ -3,7 +3,10 @@ Leaflet.Spin
 
 Shows a nice spin cursor on the map.
 
-Requires [Spin.js](http://fgnass.github.com/spin.js/)
+Requires [Spin.js](http://fgnass.github.com/spin.js/).
+
+See [online demo](http://jsfiddle.net/vsFNC/).
+
 
 Usage
 -----
