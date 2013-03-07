@@ -12,7 +12,7 @@ Usage
 
 ```
 
-    var layer = L.GeoJSON(null).addTo(map);
+    var layer = L.geoJson(null).addTo(map);
     
     layer.fire('data:loading');
     $.getJSON('http://server/path.geojson', function (data) {
