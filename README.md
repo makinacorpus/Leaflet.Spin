@@ -15,7 +15,7 @@ Usage
 ### Manually
 
 ```javascript
-map.spin();  // on
+map.spin(true);  // on
 ...
 map.spin(false);  // off
 ```
