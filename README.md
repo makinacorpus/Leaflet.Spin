@@ -20,7 +20,7 @@ map.spin();  // on
 map.spin(false);  // off
 ```
 
-### With JQuery
+### With AJAX / JQuery
 
 ```
     map.spin();
