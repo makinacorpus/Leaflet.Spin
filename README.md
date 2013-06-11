@@ -22,10 +22,22 @@ map.spin(false);  // off
 
 ### With JQuery
 
-Using events :
+```
+    map.spin();
+    $.ajax({url: 'http://server/api/'})
+     .done(function() {
+        map.spin(false);
+      })
+     .error(function () {
+        map.spin(false);
+      });
 
 ```
 
+
+Using events:
+
+```
     var layer = L.geoJson(null).addTo(map);
     
     layer.fire('data:loading');
