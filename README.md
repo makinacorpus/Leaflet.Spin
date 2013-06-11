@@ -11,7 +11,18 @@ See [online demo](http://jsfiddle.net/vsFNC/).
 Usage
 -----
 
+
+### Manually
+
+```javascript
+map.spin();  // on
+...
+map.spin(false);  // off
+```
+
 ### With JQuery
+
+Using events :
 
 ```
 
