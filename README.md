@@ -23,7 +23,7 @@ map.spin(false);  // off
 ### With AJAX / JQuery
 
 ```
-    map.spin();
+    map.spin(true);
     $.ajax({url: 'http://server/api/'})
      .done(function() {
         map.spin(false);
