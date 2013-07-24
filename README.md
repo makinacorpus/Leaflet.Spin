@@ -5,7 +5,7 @@ Shows a nice spin cursor on the map.
 
 Requires [Spin.js](http://fgnass.github.com/spin.js/).
 
-See [online demo](http://jsfiddle.net/vsFNC/).
+See [online demo](http://makinacorpus.github.io/Leaflet.Spin/).
 
 
 Usage
