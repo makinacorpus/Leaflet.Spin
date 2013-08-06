@@ -14,10 +14,15 @@
     #map {
       height: 400px;
     }
+    #btn-spin {
+      font-size: 1.5em;
+    }
   </style>
 </head>
 <body>
   <div id="map"></div>
+
+  <button id="btn-spin">Spin Top-Left !</button>
 
   <script type='text/javascript'>
     window.onload = function () {
@@ -37,6 +42,12 @@
           layer.addData(campus);
           map.spin(false);
       }, 3000);
+
+      // Recreate spin with options
+      document.getElementById('btn-spin').onclick = function () {
+          map.spin(false);
+          map.spin(true, {top: 10, left: 50});
+      };
     };
   </script>
 </body>
