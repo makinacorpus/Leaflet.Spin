@@ -5,7 +5,7 @@ Shows a nice spin cursor on the map.
 
 Requires [Spin.js](http://fgnass.github.com/spin.js/).
 
-See [online demo](http://jsfiddle.net/vsFNC/).
+See [online demo](http://makinacorpus.github.io/Leaflet.Spin/).
 
 
 Usage
@@ -19,6 +19,17 @@ map.spin(true);  // on
 ...
 map.spin(false);  // off
 ```
+
+### Spin.js options
+
+You can control apparence of wheel by passing options on first ``spin()`` call.
+
+```javascript
+map.spin(true, {lines: 13, length: 40});
+```
+
+[More details on available options](http://fgnass.github.io/spin.js/)...
+
 
 ### With AJAX / JQuery
 
