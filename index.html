@@ -12,14 +12,50 @@
   <script type='text/javascript' src="spin.js/dist/spin.min.js"></script>
   <style type='text/css'>
     #map {
-      height: 400px;
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom:0;
     }
     #btn-spin {
+      position: absolute;
+      left: 200px;
+      z-index: 10;
       font-size: 1.5em;
+    }
+    .help {
+        font-size: 1.5em;
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        height: 30px;
+        z-index: 10;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        padding: 10px;
+        margin: 0px;
+        text-align: center;
+    }
+    .help a.sources {
+        float: left;
+        margin-left: 50px;
+        color: white;
+    }
+    .help a.logo {
+        float: right;
+    }
+    .help a.logo img {
+        height: 30px;
     }
   </style>
 </head>
 <body>
+  <p class="help">Leaflet + Spin.js
+      <a class="sources" href="http://github.com/makinacorpus/Leaflet.Spin/">Sources</a>
+      <a class="logo" href="http://makina-corpus.com"><img src="http://depot.makina-corpus.org/public/logo.gif"/></a>
+  </p>
   <div id="map"></div>
 
   <button id="btn-spin">Spin Top-Left !</button>
@@ -46,7 +82,8 @@
       // Recreate spin with options
       document.getElementById('btn-spin').onclick = function () {
           map.spin(false);
-          map.spin(true, {top: 10, left: 50});
+          map.spin(true, {top: 80, left: 50});
+          setTimeout(function() {map.spin(false);}, 3000);
       };
     };
   </script>
