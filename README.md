@@ -8,6 +8,17 @@ Requires [Spin.js](http://fgnass.github.com/spin.js/).
 See [online demo](http://makinacorpus.github.io/Leaflet.Spin/).
 
 
+Changelog
+-----
+
+### 0.1.1
+Update bower dependencies
+
+### 0.1.0
+Initial version
+
+
+
 Usage
 -----
 
