@@ -25,8 +25,8 @@
     "tests"
   ],
   "dependencies": {
-    "leaflet": "^0.6.1",
-    "spin.js": "^1.2.8"
+    "leaflet": "^0.7.3",
+    "spin.js": "^1.2.3"
   },
   "readme": "README.md",
   "repository": {
