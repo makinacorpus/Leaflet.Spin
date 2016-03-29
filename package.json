@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haoliangyu/Leaflet.Spin.git"
+    "url": "git+https://github.com/makinacorpus/Leaflet.Spin.git"
   },
   "keywords": [
     "Leaflet",
@@ -16,14 +16,16 @@
     "Spin.js",
     "spinner"
   ],
-  "author": "Haoliang Yu <haholiang.yu@outlook.com>",
+  "authors": [
+    { "name": "Makina Corpus", "homepage": "http://makina-corpus.com/" }
+  ],
   "license": "MIT",
   "dependencies": {
     "leaflet": "^0.7.3",
     "spin.js": "^2.3.1"
   },
   "bugs": {
-    "url": "https://github.com/haoliangyu/Leaflet.Spin/issues"
+    "url": "https://github.com/makinacorpus/Leaflet.Spin/issues"
   },
-  "homepage": "https://github.com/haoliangyu/Leaflet.Spin#readme"
+  "homepage": "http://makinacorpus.github.io/Leaflet.Spin/"
 }
