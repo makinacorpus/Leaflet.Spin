@@ -16,9 +16,7 @@
     "Spin.js",
     "spinner"
   ],
-  "authors": [
-    { "name": "Makina Corpus", "homepage": "http://makina-corpus.com/" }
-  ],
+  "authors": "Makina Corpus (http://makina-corpus.com/)",
   "license": "MIT",
   "dependencies": {
     "leaflet": "^0.7.3",
