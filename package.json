@@ -1,0 +1,29 @@
+{
+  "name": "leaflet-spin",
+  "version": "0.1.1",
+  "description": "Show a spinner on a Leaflet map using Spin.js",
+  "main": "leaflet.spin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makinacorpus/Leaflet.Spin.git"
+  },
+  "keywords": [
+    "Leaflet",
+    "Leaflet.js",
+    "Spin.js",
+    "spinner"
+  ],
+  "authors": "Makina Corpus (http://makina-corpus.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "leaflet": "^0.7.3",
+    "spin.js": "^2.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/makinacorpus/Leaflet.Spin/issues"
+  },
+  "homepage": "http://makinacorpus.github.io/Leaflet.Spin/"
+}
