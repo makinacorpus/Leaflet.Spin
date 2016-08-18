@@ -1,0 +1,22 @@
+{
+  "name": "leaflet-spin-demo",
+  "version": "1.0.0",
+  "description": "Leaflet.Spin ============",
+  "main": "leaflet.spin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makinacorpus/Leaflet.Spin.git"
+  },
+  "author": "Makina Corpus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makinacorpus/Leaflet.Spin/issues"
+  },
+  "homepage": "https://github.com/makinacorpus/Leaflet.Spin#readme",
+  "dependencies": {
+    "leaflet-spin": "^0.1.1"
+  }
+}
