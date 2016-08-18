@@ -1,22 +1,33 @@
 Leaflet.Spin
 ============
 
-Shows a nice spin cursor on the map.
+Shows a nice spin cursor on the map. See [online demo](http://makinacorpus.github.io/Leaflet.Spin/).
 
-Requires [Spin.js](http://fgnass.github.com/spin.js/).
-
-See [online demo](http://makinacorpus.github.io/Leaflet.Spin/).
+This plugin requires [Spin.js](http://fgnass.github.com/spin.js/).
 
 
-Changelog
+
+Install
 -----
 
 ### 0.1.1
 Update bower dependencies
+=======
+### NPM
 
-### 0.1.0
-Initial version
+```
+npm install leaflet-spin
+```
 
+### Bower
+
+```
+bower install leaflet-spin
+```
+
+### Manually
+
+Download the [latest release](https://github.com/makinacorpus/Leaflet.Spin/releases/tag/1.0.0) and include it in your app
 
 
 Usage
@@ -44,40 +55,49 @@ map.spin(true, {lines: 13, length: 40});
 
 ### With AJAX / JQuery
 
-```
-    map.spin(true);
-    $.ajax({url: 'http://server/api/'})
-     .done(function() {
-        map.spin(false);
-      })
-     .error(function () {
-        map.spin(false);
-      });
-
+```javascript
+map.spin(true);
+$.ajax({url: 'http://server/api/'})
+.done(function() {
+  map.spin(false);
+})
+.error(function () {
+  map.spin(false);
+});
 ```
 
 
 Using events:
 
-```
-    var layer = L.geoJson(null).addTo(map);
-    
-    layer.fire('data:loading');
-    $.getJSON('http://server/path.geojson', function (data) {
-        layer.fire('data:loaded');
-        layer.addData(data);
-    });
+```javascript
+var layer = L.geoJson(null).addTo(map);
 
+layer.fire('data:loading');
+$.getJSON('http://server/path.geojson', function (data) {
+    layer.fire('data:loaded');
+    layer.addData(data);
+});
 ```
 
 ### With [Leaflet.AJAX](https://github.com/calvinmetcalf/leaflet-ajax/)
 
+```javascript
+var layer = L.geoJson.ajax();
+layer.addUrl('http://server/path.geojson');
 ```
 
-    var layer = L.geoJson.ajax();
-    layer.addUrl('http://server/path.geojson');
+Changelog
+-----
 
-```
+### 1.0.0
+This version is stable
+
+### 0.1.1
+Update bower dependencies
+
+### 0.1.0
+Initial version
+
 
 
 Authors
