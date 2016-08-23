@@ -1,10 +1,13 @@
 {
   "name": "leaflet-spin",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Show a spinner on a Leaflet map using Spin.js",
   "main": "leaflet.spin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "minify --output leaflet.spin.min.js leaflet.spin.js",
+    "copy": "copy leaflet.spin.min.js example",
+    "release": "npm run build && npm run copy",
+    "deploy": "gh-pages -d example"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/makinacorpus/Leaflet.Spin/issues"
   },
-  "homepage": "http://makinacorpus.github.io/Leaflet.Spin/"
+  "homepage": "http://makinacorpus.github.io/Leaflet.Spin/",
+  "devDependencies": {
+    "minifier": "^0.8.0"
+  }
 }

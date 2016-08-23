@@ -10,9 +10,6 @@ This plugin requires [Spin.js](http://fgnass.github.com/spin.js/).
 Install
 -----
 
-### 0.1.1
-Update bower dependencies
-=======
 ### NPM
 
 ```
@@ -33,8 +30,7 @@ Download the [latest release](https://github.com/makinacorpus/Leaflet.Spin/relea
 Usage
 -----
 
-
-### Manually
+This plugin can be loaded with AMD/CommonJS.
 
 ```javascript
 map.spin(true);  // on
@@ -86,11 +82,22 @@ var layer = L.geoJson.ajax();
 layer.addUrl('http://server/path.geojson');
 ```
 
+Development
+-----
+
+You can use example folder for testing.
+
+```
+npm run release   # minify js and copy leaflet.spin.min.js in example folder
+npm run deploy    # deploy to gh-pages
+```
+
+
 Changelog
 -----
 
 ### 1.0.0
-This version is stable
+Update structure with official Leaflet plugin rules
 
 ### 0.1.1
 Update bower dependencies
