@@ -1,4 +1,4 @@
-(function (factory, window) {
+(function (window) {
 
     var SpinMapMixin = {
         spin: function (state, options) {
