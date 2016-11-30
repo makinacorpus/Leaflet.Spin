@@ -24,7 +24,7 @@ bower install leaflet-spin
 
 ### Manually
 
-Download the [latest release](https://github.com/makinacorpus/Leaflet.Spin/releases/tag/1.0.0) and include it in your app
+Download the [latest release](https://github.com/makinacorpus/Leaflet.Spin/releases/tag/1.1.0) and include it in your app
 
 
 Usage
@@ -95,6 +95,9 @@ npm run deploy    # deploy to gh-pages
 
 Changelog
 -----
+
+### 1.1.0
+Update export and extend system
 
 ### 1.0.0
 Update structure with official Leaflet plugin rules
