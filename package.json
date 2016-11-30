@@ -5,6 +5,7 @@
   "main": "leaflet.spin.js",
   "scripts": {
     "build": "minify --output leaflet.spin.min.js leaflet.spin.js",
+    "serve": "live-server --open=example",
     "copy": "copy leaflet.spin.min.js example",
     "release": "npm run build && npm run copy",
     "deploy": "gh-pages -d example"
@@ -29,6 +30,7 @@
   },
   "homepage": "http://makinacorpus.github.io/Leaflet.Spin/",
   "devDependencies": {
+    "live-server": "^1.1.0",
     "minifier": "^0.8.0"
   },
   "peerDependencies": {
