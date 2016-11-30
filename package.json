@@ -6,7 +6,7 @@
   "scripts": {
     "build": "minify --output leaflet.spin.min.js leaflet.spin.js",
     "serve": "live-server --open=example",
-    "copy": "copy leaflet.spin.min.js example",
+    "copy": "cp leaflet.spin.min.js example",
     "release": "npm run build && npm run copy",
     "deploy": "gh-pages -d example"
   },
