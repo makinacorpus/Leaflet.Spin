@@ -96,6 +96,9 @@ npm run deploy    # deploy to gh-pages
 Changelog
 -----
 
+### 1.1.1
+Add Leaflet 1.x support
+
 ### 1.1.0
 Update export and extend system
 
