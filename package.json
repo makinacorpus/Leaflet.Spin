@@ -30,10 +30,11 @@
   },
   "homepage": "http://makinacorpus.github.io/Leaflet.Spin/",
   "devDependencies": {
+    "leaflet": "^0.7.3 || ^1.0.0",
     "live-server": "^1.1.0",
     "minifier": "^0.8.0"
   },
   "peerDependencies": {
-    "leaflet": "^0.7.3"
+    "leaflet": "^0.7.3 || ^1.0.0"
   }
 }
