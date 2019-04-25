@@ -1,24 +1,27 @@
 (function (factory, window) {
     // define an AMD module that relies on 'leaflet'
     if (typeof define === 'function' && define.amd) {
-        define(['leaflet'], function (L) {
-            factory(L);
+        define(['leaflet','spin.js'], function (L, Spinner) {
+            factory(L, Spinner);
         });
 
     // define a Common JS module that relies on 'leaflet'
     } else if (typeof exports === 'object') {
-        module.exports = function (L) {
+        module.exports = function (L, Spinner) {
             if (L === undefined) {
                 L = require('leaflet');
             }
-            factory(L);
+            if (Spinner === undefined) {
+                Spinner = require('spin.js');
+            }
+            factory(L, Spinner);
             return L;
         };
     // attach your plugin to the global 'L' variable
-    } else if (typeof window !== 'undefined' && window.L) {
-        factory(window.L);
+    } else if (typeof window !== 'undefined' && window.L && window.Spinner) {
+        factory(window.L, window.Spinner);
     }
-}(function leafletSpinFactory(L) {
+}(function leafletSpinFactory(L, Spinner) {
     var SpinMapMixin = {
         spin: function (state, options) {
             if (!!state) {
