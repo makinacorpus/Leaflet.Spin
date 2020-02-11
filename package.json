@@ -1,6 +1,6 @@
 {
   "name": "leaflet-spin",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Show a spinner on a Leaflet map using Spin.js",
   "main": "leaflet.spin.js",
   "scripts": {

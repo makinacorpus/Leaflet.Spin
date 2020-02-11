@@ -18,7 +18,7 @@ npm install leaflet-spin
 
 ### Manually
 
-Download the [latest release](https://github.com/makinacorpus/Leaflet.Spin/releases/tag/1.1.1) and include it in your app
+Download the [latest release](https://github.com/makinacorpus/Leaflet.Spin/releases/tag/1.1.2) and include it in your app
 
 
 Usage
@@ -89,6 +89,9 @@ npm run deploy    # deploy to gh-pages
 
 Changelog
 -----
+
+### 1.1.2
+Should work with all 0.x and 1.x versions of leaflet
 
 ### 1.1.1
 Add the dependency to spin.js in the module definition
