@@ -16,15 +16,9 @@ Install
 npm install leaflet-spin
 ```
 
-### Bower
-
-```
-bower install leaflet-spin
-```
-
 ### Manually
 
-Download the [latest release](https://github.com/makinacorpus/Leaflet.Spin/releases/tag/1.1.0) and include it in your app
+Download the [latest release](https://github.com/makinacorpus/Leaflet.Spin/releases/tag/1.1.1) and include it in your app
 
 
 Usage
