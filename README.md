@@ -1,11 +1,12 @@
+<a href="https://www.npmjs.com/package/leaflet-spin"><img alt="npm" src="https://img.shields.io/npm/dt/leaflet-spin"></a>
+<a href="https://www.npmjs.com/package/leaflet-spin"><img alt="npm" src= "https://img.shields.io/npm/v/leaflet-spin?color=red"></a>
+
 Leaflet.Spin
 ============
 
 Shows a nice spin cursor on the map. See [online demo](http://makinacorpus.github.io/Leaflet.Spin/).
 
 This plugin requires [Spin.js](http://fgnass.github.com/spin.js/).
-
-
 
 Install
 -----
@@ -56,7 +57,6 @@ $.ajax({url: 'http://server/api/'})
 });
 ```
 
-
 Using events:
 
 ```javascript
@@ -86,7 +86,6 @@ npm run release   # minify js and copy leaflet.spin.min.js in example folder
 npm run deploy    # deploy to gh-pages
 ```
 
-
 Changelog
 -----
 
@@ -107,8 +106,6 @@ Update bower dependencies
 
 ### 0.1.0
 Initial version
-
-
 
 Authors
 -------
