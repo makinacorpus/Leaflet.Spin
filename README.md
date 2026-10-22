@@ -41,7 +41,7 @@ You can control apparence of wheel by passing options on first ``spin()`` call.
 map.spin(true, {lines: 13, length: 40});
 ```
 
-[More details on available options](http://fgnass.github.io/spin.js/)...
+[More details on available options](https://spin.js.org/)...
 
 
 ### With AJAX / JQuery
