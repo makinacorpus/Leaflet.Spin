@@ -6,7 +6,7 @@ Leaflet.Spin
 
 Shows a nice spin cursor on the map. See [online demo](http://makinacorpus.github.io/Leaflet.Spin/).
 
-This plugin requires [Spin.js](http://fgnass.github.com/spin.js/).
+This plugin requires [Spin.js](https://spin.js.org/).
 
 Install
 -----
